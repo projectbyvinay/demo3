@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maison Ember — GSAP Demo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="loader"><span>MAISON EMBER</span></div>
+  <header class="nav">
+    <a class="logo" href="#">MAISON <em>EMBER</em></a>
+    <a class="reserve" href="#contact">Reserve a table</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Contemporary Indian Dining</p>
+        <h1>A feast for<br><i>the senses.</i></h1>
+        <p class="intro">Fire, spice and modern Indian flavours crafted into an unforgettable evening.</p>
+        <a class="btn" href="#menu">Explore the menu <span>↘</span></a>
+      </div>
+      <div class="hero-image-wrap">
+        <div class="hero-image"></div>
+        <div class="circle-text">TASTE • FIRE • CULTURE • </div>
+      </div>
+    </section>
+
+    <section class="statement">
+      <p class="eyebrow">Our philosophy</p>
+      <h2>Old soul.<br><i>New expression.</i></h2>
+    </section>
+
+    <section class="parallax-section">
+      <div class="parallax-image"></div>
+      <div class="parallax-card">
+        <span>01</span>
+        <h3>From the flame</h3>
+        <p>Slow smoke, live fire and bold spices meet contemporary technique.</p>
+      </div>
+    </section>
+
+    <section id="menu" class="menu">
+      <div class="section-head">
+        <div><p class="eyebrow">Signature plates</p><h2>The menu</h2></div>
+        <p class="section-note">A changing selection inspired by India's regions, seasons and kitchens.</p>
+      </div>
+      <div class="menu-grid">
+        <article class="menu-card"><div class="food f1"></div><div class="card-copy"><span>01</span><h3>Ember Tandoori</h3><p>Charred paneer · smoked tomato · kasundi</p><b>₹ 620</b></div></article>
+        <article class="menu-card"><div class="food f2"></div><div class="card-copy"><span>02</span><h3>Malai Scallops</h3><p>Coconut · curry leaf · coastal spice</p><b>₹ 890</b></div></article>
+        <article class="menu-card"><div class="food f3"></div><div class="card-copy"><span>03</span><h3>Royal Biryani</h3><p>Aged basmati · saffron · slow-cooked vegetables</p><b>₹ 760</b></div></article>
+        <article class="menu-card"><div class="food f4"></div><div class="card-copy"><span>04</span><h3>Gulab & Smoke</h3><p>Rose · dark chocolate · cardamom</p><b>₹ 440</b></div></article>
+      </div>
+    </section>
+
+    <section class="reveal-section">
+      <div class="reveal-photo"><div class="reveal-inner"></div></div>
+      <div class="reveal-copy"><p class="eyebrow">The experience</p><h2>Come hungry.<br><i>Leave inspired.</i></h2><p>Every plate is designed to slow the evening down and make room for conversation, discovery and another glass.</p></div>
+    </section>
+
+    <section id="contact" class="contact">
+      <p class="eyebrow">Join us</p><h2>Your table<br><i>awaits.</i></h2>
+      <a class="btn" href="mailto:hello@example.com">Make a reservation <span>↗</span></a>
+    </section>
+  </main>
+  <footer>© 2026 Maison Ember <span>Made with GSAP</span></footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
